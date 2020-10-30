@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Camma's puzzle</title>
+</head>
+<body>
+   <h1>Camma's puzzle</h1>
+   <p> move the pieces by draging and drop the numbers near the empty square to put the numbers in order and having the empty box at the bottom right of the square</p>
+   <div id="modal" class="hide">
+       <div id="header"><button id="closeBtn" onclick="hideModal()">x</button></div>
+       <h1 id="message">Congrats you winner!!</h1>
+   </div>
+   <div id="container">
+       <ul id="list">
+       </ul>
+   </div>
+   <div class="buttons">
+       <button id="easy">Easy</button>
+       <button id="medium">Medium</button>
+       <button id="difficult">Difficult</button>
+   </div>
+</body>
+<script src="logic.js"></script>
+
+</html>

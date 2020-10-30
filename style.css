@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    background-color: #a7823d;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 2%;
+
+}
+
+#container {
+    width: 530px;
+    height: 530px;
+    background: #ffffff;
+    margin: 10px auto;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+ul li {
+    background: #096339;
+    width: 160px;
+    height: 160px;
+    border: 1px solid #ff0404;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+ul.easy li {
+    background: #096339;
+    width: 160px;
+    height: 160px;
+    border: 1px solid #ff0404;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+  ul.medium li {
+    background: #096339;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #ff0404;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+  ul.difficult li {
+    background: #096339;
+    width: 96px;
+    height: 96px;
+    border: 1px solid #ff0404;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+
+ul.medium li.empty {
+    background: #DAD4EF;
+    border: 2px solid #ff0404;
+}
+ul.easy li.empty {
+    background: #DAD4EF;
+    border: 2px solid #ff0404;
+}
+ul.difficult li.empty {
+    background: #DAD4EF;
+    border: 2px solid #ff0404;
+}
+
+h1 {
+    color: #2e3c8d;
+    text-align: center;
+}
+
+
+#modal {
+    background: #0b27c5;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 3px 3px 5px #535353;
+    border-radius: 6px 6px 6px 6px;
+}
+
+#modal #message {
+    color: #FDE1E3;
+    margin: 0;
+    font-size: 4rem;
+}
+
+.hide {
+    display: none;
+}
+#modal #header {
+    text-align: right;
+    padding: 5px 10px;
+}
+#modal #header button {
+    padding: 10px;
+    border: 0px;
+    background: #456990;
+    color: #E4FDE1;
+    cursor: pointer;
+}
