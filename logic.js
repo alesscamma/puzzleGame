@@ -2,8 +2,6 @@
 let ul = document.querySelector('ul');
 
 
-// add eventlistener based on button click 
-
 // onLoad --> add event listener for the three buttons + invoke statGame(3) and ads class to define squares size
 document.addEventListener("DOMContentLoaded", event => {
     document.getElementById("easy").addEventListener("click", () => {
@@ -22,6 +20,7 @@ document.addEventListener("DOMContentLoaded", event => {
     document.getElementById("list").classList.add('easy');
 });
 
+// resets the right number of boxes
 easy.onclick = () => {
     const myNode = document.getElementById("list");
     myNode.innerHTML = '';
@@ -41,7 +40,7 @@ medium.onclick = () => {
 
 let numbers = []; //numbers to be populated
 let boxCounts; //number of boxes in the square to determin the level
-let li;
+let li; //li which will determin the boxes
 
 //function to lunch on pageload
 const startGame = (n) => {
@@ -67,6 +66,7 @@ const startGame = (n) => {
     
 };
 
+//function that generates the number of boxes based on the level
 const generateBoxes = () => {
     for (var i = 0; i < numbers.length; i++) {
         var boxes = numbers[i];
