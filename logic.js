@@ -242,7 +242,7 @@ const dragend_handler = ev => {
 };
 // Shows winning banner
 const showModal = () => {
-    document.getElementById('message').innerText = "Congrats you winner!";
+    document.getElementById('message').innerText = "Congrats you win!";
     document.getElementById('modal').classList.remove("hide");
 };
 // hides banner when clicking on x
