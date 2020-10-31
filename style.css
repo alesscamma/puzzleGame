@@ -96,7 +96,10 @@ h1 {
 
 
 #modal {
-    background: #82c08a;
+    height: 25%;
+    width: 60%;
+    background: #2826b3f6;
+    border: 1px solid red;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -107,8 +110,13 @@ h1 {
 
 #modal #message {
     color: #FDE1E3;
-    margin: 0;
-    font-size: 4rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .hide {
@@ -142,12 +150,11 @@ button{
 
 #modal #header {
     text-align: right;
-    padding: 5px 10px;
 }
 #modal #header button {
-    padding: 10px;
-    border: 0px;
-    background: #456990;
+    float: right;
+    background: #ff0000;
     color: #ffffff;
     cursor: pointer;
+    margin: 0px;
 }
