@@ -96,7 +96,7 @@ h1 {
 
 
 #modal {
-    background: #0b27c5;
+    background: #82c08a;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -148,6 +148,6 @@ button{
     padding: 10px;
     border: 0px;
     background: #456990;
-    color: #E4FDE1;
+    color: #ffffff;
     cursor: pointer;
 }

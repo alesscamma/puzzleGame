@@ -247,6 +247,6 @@ const showModal = () => {
 };
 // hides banner when clicking on x
 const hideModal = () => {
-    document.getElementById('message').innerText = "Congrats you winner!";
+    document.getElementById('message').innerText = "Congrats you win!";
     document.getElementById('modal').classList.add("hide");
 };
